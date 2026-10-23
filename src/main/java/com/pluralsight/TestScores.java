@@ -12,14 +12,14 @@ public class TestScores {
         int high = scores[0];
         int low = scores[0];
 
-        for (int i = 0; i < scores.length; i++) {
-            sum += scores[i];
+        for (int score : scores) {
+            sum += score;
 
-            if (scores[i] > high) {
-                high = scores[i];
+            if (score > high) {
+                high = score;
             }
-            if (scores[i] < low) {
-                low = scores[i];
+            if (score < low) {
+                low = score;
 
             }
             double average = (double) sum / scores.length;
