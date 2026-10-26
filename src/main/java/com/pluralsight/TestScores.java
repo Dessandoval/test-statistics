@@ -22,12 +22,11 @@ public class TestScores {
                 low = score;
 
             }
-            double average = (double) sum / scores.length;
-
-            System.out.printf("Average: %.2f\n", average);
-            System.out.println("High score: " + high);
-            System.out.println("Low score: " + low);
-
         }
+        double average = (double) sum / scores.length;
+
+        System.out.printf("Average: %.2f\n", average);
+        System.out.println("High score: " + high);
+        System.out.println("Low score: " + low);
     }
 }
